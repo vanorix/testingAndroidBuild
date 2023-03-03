@@ -14,6 +14,14 @@ jobs:
         with:
           node-version: 12.16.1
       - name: Install dependencies
-        run: cd myFlipClockApp && npm install
+        run: cd testingAndroidBuild/cicdpipelinetest/ && npm install
       - name: where are we
         run: ls -lash
+        
+#export ANDROID_HOME=$HOME/Library/Android/sdk
+#export PATH=$PATH:$ANDROID_HOME/emulator
+#export PATH=$PATH:$ANDROID_HOME/platform-tool
+#npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+#cd ./android && ./gradlew app:assembleRelease
+#./gradlew app:assembleRelease
+#npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
