@@ -1,0 +1,500 @@
+  260  ls
+  261  npx pod-install
+  262  npm install 
+  263  history | grep -i react
+  264  ls
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd myFlipClockApp/ios/
+  269  ls
+  270  cd ..
+  271  ls
+  272  ls
+  273  cd ios/
+  274  ls
+  275  ls -lash
+  276  cat Podfile
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd node_modules/
+  281  ls
+  282  cd react-native
+  283  ls
+  284  cd scripts/
+  285  ls 
+  286  pwd
+  287  ls
+  288  cd ..
+  289  cd ..
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd ..
+  294  ls
+  295  git add > 
+  296  git add >
+  297  git add .
+  298  git commit -m "yeet removed"
+  299  git push
+  300  git push -F
+  301  git push -f
+  302  ls
+  303  cd myFlipClockApp/
+  304  ls
+  305  git add .
+  306  git commit -m "send help"
+  307  ls -lash
+  308  ls
+  309  cd ..
+  310  ls
+  311  ls -lash
+  312  cd .github/
+  313  ls
+  314  cat workflows/
+  315  cd workflows/
+  316  ls
+  317  cat main.yml 
+  318  history | grep -i react 
+  319  ls
+  320  cd ..
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd myFlipClockApp/
+  325  ls
+  326  cat package.json 
+  327  ls
+  328  npm install package.json 
+  329  history | grep -i react 
+  330  ls
+  331  npx react-native run-ios -- configuration Release
+  332  sudo npx react-native run-ios --simulator="iPhone 14" -- configuration Release
+  333  ls
+  334  cd ios
+  335  ls
+  336  cd myFlipClockApp
+  337  ls
+  338  cd ..
+  339  ls
+  340  cd build/
+  341  ls
+  342  cd generated/
+  343  ls
+  344  cd ios/
+  345  ls
+  346  cd ..
+  347  cd ..
+  348  cd ..
+  349  ls
+  350  sudo npx react-native bundle --platform "ios"
+  351  ls
+  352  cd ..
+  353  ls
+  354  git pull 
+  355  ls
+  356  cd ..
+  357  ls
+  358  cd .github/
+  359  ls
+  360  cd workflows/
+  361  ls
+  362  sftp bruce@batcomputer
+  363  ls
+  364  cd ..
+  365  cd ..
+  366  ls
+  367  sftp bruce@batcomputer
+  368  ls
+  369  ls
+  370  cd myFlipClockApp/
+  371  ls
+  372  cd ios/
+  373  ls
+  374  cat Podfile
+  375  ls
+  376  rm Podfile
+  377  pod install
+  378  rm Podfile.lock 
+  379  pod install
+  380  pod install
+  381  cd ..
+  382  ls
+  383  git pull
+  384  ls
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd ..
+  389  ls
+  390  rm -rm flipClockApp-iOS/
+  391  rm -rf flipClockApp-iOS/
+  392  sudo rm -rf flipClockApp-iOS/
+  393  ls
+  394  git clone git@github.com:Linw00d93/flipClockApp-iOS.git
+  395  ls
+  396  cd flipClockApp-iOS/
+  397  ls
+  398  cd myFlipClockApp/
+  399  sl
+  400  ls
+  401  sudo npm install
+  402  ls
+  403  cd ios/
+  404  ls
+  405  pod install
+  406  react-native bundle --platform "ios"
+  407  cd ..
+  408  ls
+  409  react-native bundle --platform "ios"
+  410  npx react-native bundle --platform "ios"
+  411  sudo npx react-native bundle --platform "ios"
+  412   upgrade react-scripts
+  413  react-scripts
+  414  npm i react-dev-utils@10.0.0
+  415  sudo npm i react-dev-utils@10.0.0
+  416  sudo npm audit fix --force
+  417  sudo npx react-native bundle --platform "ios"
+  418  sudo npm install react-scripts@latest
+  419  sudo npx react-native bundle --platform "ios"
+  420  sudo npm audit fix --force
+  421  sudo npm audit fix --force
+  422  ls
+  423  history
+  424  sudo npx react-native run-ios --simulator="iPhone 14
+  425  sudo npx react-native run-ios --simulator="iPhone 14"
+  426  sudo npx react-native run-ios --simulator="iPhone 13"
+  427  sudo npx react-native run-ios
+  428  sudo npx react-native run-ios --simulator="iPhone 14"
+  429  ls
+  430  nano App.js 
+  431  sudo npx react-native run-ios --simulator="iPhone 14"
+  432  git add .
+  433  git commit -m "bring flip back"
+  434  sudo npm install
+  435  sudo npm audit fix --force
+  436  sudo yarn install
+  437  ls
+  438  rm package-lock.json 
+  439  ls
+  440  sudo yarn install
+  441  ls
+  442  rm yarn.lock 
+  443  sudo npx install
+  444  sudo npm install
+  445  ls
+  446  cd ls
+  447  sudo npx react-native run-ios --simulator="iPhone 14"
+  448  ls
+  449  sudo npm install 
+  450  ls
+  451  rm package-lock.json 
+  452  ls
+  453  sudo npm install 
+  454  sudo npm install fsevents 2
+  455  sudo npm audit fix --force
+  456  sudo npm install react-scripts@2.1.3
+  457  ls
+  458  rm -rf node_modules/
+  459  sudo rm -rf node_modules/
+  460  sudo npm install 
+  461  node -v
+  462  npm -v
+  463  sudo npm install node@9.3.1
+  464  sudo homebrew install node@9.3.1
+  465  sudo npm install 
+  466  ls
+  467  ls
+  468  cd ..
+  469  ls
+  470  cd ..
+  471  ls
+  472  cd /
+  473  ls
+  474  cd Users/robinsonjrpro/Documents/Github/
+  475  ls
+  476  cd ..
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd Documents/
+  481  ls
+  482  slsls
+  483  ls
+  484  cd Documents/
+  485  ls
+  486  lslsls
+  487  ls
+  488  exit
+  489  ls
+  490  ls
+  491  exit
+  492  ls
+  493  cd Documents/
+  494  ls
+  495  sl
+  496  ls
+  497  bash
+  498  ls
+  499  ls
+  500  ssh bruce@broadcasthost 
+  501  ssh bruce@batcomputer
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd ..
+  506  ls
+  507  npx react-native init cicdPipelineTest
+  508  sudo npx react-native init cicdPipelineTest
+  509  ls
+  510  cd cicdPipelineTest/
+  511  ls
+  512  npm install react-native-cicdPipelineTest
+  513  npm install react-native-cicdpipelinetest
+  514  ls
+  515  cd ..
+  516  ls
+  517  rm cicdPipelineTest/
+  518  rm -rf cicdPipelineTest/
+  519  sudo rm -rf cicdPipelineTest/
+  520  sudo npx react-native init cicdpipelinetest
+  521  sudo npx react-native init cicdpipelinetest /usr/local/lib/node_modules/react-native-cli/index.js:302
+  522  sudo npx react-native init cicdpipelinetest --version 0.68.2
+  523  sudo npx react-native init cicdpipelinetest --version 0.68.2
+  524  ls
+  525  sudo rm -rf cicdpipelinetest/
+  526  sudo npx react-native init cicdpipelinetest --version 0.68.2
+  527  ls
+  528  cd cicdpipelinetest/
+  529  ls
+  530  cd ios/
+  531  pod install
+  532  sudo pod install
+  533  sudo pod install
+  534  pod install
+  535  ls
+  536  cd ..
+  537  ls
+  538  cd ..
+  539  ls
+  540  rm -rf cicdpipelinetest/
+  541  sudo rm -rf cicdpipelinetest/
+  542  ls
+  543  npx react-native init cicdpipelinetest --version 0.68.2
+  544  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  545  brew install node
+  546  brew update
+  547  brew upgrade
+  548  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  549  ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+  550  brew install watchman
+  551  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  552  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  553  export ANDROID_HOME=$HOME/Library/Android/sdk
+  554  export PATH=$PATH:$ANDROID_HOME/emulator
+  555  export PATH=$PATH:$ANDROID_HOME/platform-tools
+  556  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  557  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  558  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-outpu
+  559  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output
+  560  react-native bundle --platform android --dev false 
+  561  react-native bundle --platform android
+  562  ls
+  563  cd android/
+  564  ls
+  565  react-native bundle --platform android
+  566  npm install
+  567  react-native bundle --platform android
+  568  history | grep react-native
+  569  npx react-native bundle --platform android
+  570  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  571  cd ..
+  572  ls
+  573  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  574  ls
+  575  cat index.js > index.android.js 
+  576  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  577  cd android/app/src/main/
+  578* 
+  579  mkdir assests
+  580  cd assests/
+  581  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  582  cd ..
+  583  cd ..
+  584  cd ..
+  585  cd ..
+  586  cd ..
+  587  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  588  touch android/app/src/main/assets/index.android.bundle
+  589  ls
+  590  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output /android/app/src/main/assets/index.android.bundle --assets-dest /android/app/src/main/res/
+  591  cd android/app/src/main/assests/
+  592  ls
+  593  touch index.android.bundle
+  594  cd ..
+  595  cd ..
+  596  cd ..
+  597  cd ..
+  598  cd ..
+  599  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output /android/app/src/main/assets/index.android.bundle --assets-dest /android/app/src/main/res/
+  600  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  601  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/ --assets-dest android/app/src/main/res/
+  602  react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/ --assets-dest android/app/src/main/res/
+  603  react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle && cd ./android && ./gradlew app:assembleRelease
+  604  npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle && cd ./android && ./gradlew app:assembleRelease
+  605  npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  606  cd ./android && ./gradlew app:assembleRelease
+  607  ls
+  608  cd app/
+  609  ls
+  610  cd ..
+  611  ls
+  612  cd app/
+  613  ;s
+  614  ls
+  615  cd src/
+  616  lc
+  617  ls
+  618  cd main/
+  619  ls
+  620  rm -rf assets/ assests/
+  621  cd ..
+  622  cd src && ls
+  623  cd main/ && ls
+  624  cd ..
+  625  cd ..
+  626  cd ..
+  627  cd ..
+  628  ls
+  629  npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  630  cd ./android && ./gradlew app:assembleRelease
+  631  cd ./android && ./gradlew app:assembleRelease
+  632  cd ./android && ./gradlew app:assembleRelease
+  633  ./gradlew app:assembleRelease
+  634  ./gradlew app:assembleRelease
+  635  ls
+  636  rm -rf app/
+  637  rm -rf $HOME/.gradle/caches/
+  638  nano build.gradle 
+  639  npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  640  cd ..
+  641  npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  642  npx react-native run-android 
+  643  cd android/
+  644  npx react-native run-android 
+  645  ls
+  646  ./gradlew app:assembleRelease
+  647  cd ..
+  648  ls
+  649  npx react-native run-android
+  650  npm install
+  651  npx react-native run-android
+  652  histroy | grep - react
+  653  histroy | grep -i react
+  654  history | grep -i react
+  655  cd "/Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest" && npx react-native run-android
+  656  react-native upgrade.
+  657  npx react-native upgrade.
+  658  react-native eject
+  659  npx react-native eject
+  660  npx react-native --help
+  661  npx react-native dcotor
+  662  npx react-native doctor
+  663  history
+  664  export ANDROID_HOME=$HOME/Library/Android/sdk
+  665  npx react-native doctor
+  666  npm install -g react-native-cli
+  667   sudo chown -R 501:20 "/Users/robinsonjrpro/.npm"
+  668  npm install -g react-native-cli
+  669  sudo npm install -g react-native-cli
+  670  sudo rename '/usr/local/lib/node_modules/react-native-cli' -> '/usr/local/lib/node_modules/.react-native-cli-pETGBKOe'
+  671  sudo su
+  672  ls
+  673  cd ..
+  674  ls
+  675  rm -rf cicdpipelinetest/
+  676  history | grep -i react
+  677   npx react-native init cicdpipelinetest --version 0.68.2
+  678  npx react-native init cicdpipelinetest --version 0.68.2
+  679  ls
+  680  cd cicdpipelinetest/
+  681  ls
+  682  history | grep -i react
+  683  npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+  684  cd ./android && ./gradlew app:assembleRelease
+  685  ./gradlew app:assembleRelease
+  686  * What went wrong:
+  687  sudo rm -rf $HOME/.gradle
+  688  ./gradlew app:assembleRelease
+  689  history | grep -i react
+  690  history | grep -i drawable-mdpi
+  691  rm -rf  /Users/robinsonjrpro/Documents/GitHub/cicdpipelinetest/android/app/src/main/res/drawable-mdpi/
+  692  ./gradlew app:assembleRelease
+  693  ls
+  694  cd app/
+  695  ls
+  696  cd src/
+  697  ls
+  698  cd main/
+  699  ls
+  700  cd assets/
+  701  ls
+  702  cd ..
+  703  ls
+  704  cd java/
+  705  ls
+  706  cd com/
+  707  ls
+  708  cd cicdpipelinetest/
+  709  ls
+  710  cd ..
+  711  cd ..
+  712  cd ..
+  713  cd ..
+  714  cd ..
+  715  cd ..
+  716  ls
+  717  find / .apk
+  718  find / -name *.apk
+  719  ls
+  720  cd gradle
+  721  ls
+  722  cd ..
+  723  ls
+  724  cd ..
+  725  ls
+  726  ls
+  727  cd android/
+  728  ls
+  729  cd app/
+  730  ls
+  731  cd build
+  732  ls
+  733  cd intermediates/
+  734  cd ..
+  735  ls
+  736  cd outputs/
+  737  ls
+  738  cd apk/
+  739  ls
+  740  cd release/
+  741  ls
+  742  ls
+  743  cd ..
+  744  ls
+  745  cd ..
+  746  ls
+  747  cd ..
+  748  ls
+  749  cd ..
+  750  ls
+  751  cd ..
+  752  ls
+  753  cd ..
+  754  ls
+  755  cd ..
+  756  ls
+  757  cd cicdpipelinetest/
+  758  ls
+  759  history > logs-of-commands.txt
