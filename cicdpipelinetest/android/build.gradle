@@ -25,7 +25,6 @@ buildscript {
         classpath("com.android.tools.build:gradle:7.0.4")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("de.undercouch:gradle-download-task:4.1.2")
-        classpath("org.gradle.java.home=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
