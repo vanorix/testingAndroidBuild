@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: cd cicdpipelinetest/ && npm install && brew install watchman
       - name: Install Android  SDK 
-        run: brew tap homebrew/cask && brew install android-sdk && npm install -g react-native-cli
+        run: brew install android-sdk && npm install -g react-native-cli
       - name: Setup ENV
         run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool && export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
       - name: Checking things 
