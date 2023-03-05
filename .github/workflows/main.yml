@@ -15,7 +15,9 @@ jobs:
         with:
           node-version: 12.16.1
       - name: Install dependencies
-        run: cd cicdpipelinetest/ && npm install
+        run: cd cicdpipelinetest/ && npm install && brew install node && brew install watchman
+      - name: Install Android  SDK 
+        run: brew tap homebrew/cask && brew install --cask android-sdk
       - name: where are we
         run: ls -lash
       - name: building 
