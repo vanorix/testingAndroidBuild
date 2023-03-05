@@ -31,4 +31,4 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '11'
-      - run: export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/ && cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
+      - run: cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
