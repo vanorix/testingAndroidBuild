@@ -32,4 +32,4 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '11'
       - name: final build    
-      - run: cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
+        run: cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
