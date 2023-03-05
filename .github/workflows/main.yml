@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: cd cicdpipelinetest/ && npm install && brew install node && brew install watchman
       - name: Install Android  SDK 
-        run: brew tap homebrew/cask && brew install --cask android-sdk
+        run: brew tap homebrew/cask && brew install --cask android-sdk && npm install -g react-native-cli
       - name: where are we
         run: ls -lash
       - name: building 
