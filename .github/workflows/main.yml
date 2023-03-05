@@ -11,4 +11,4 @@ jobs:
      - name: Android Build
        uses: vgaidarji/android-github-actions-build@v1.0.1
        with:
-          args: "./gradlew app:assembleRelease"
+          args: "./cicdpipelinetest/android/gradlew app:assembleRelease"
