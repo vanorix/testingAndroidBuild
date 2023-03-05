@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
      - name: Android Build
        uses: vgaidarji/android-github-actions-build@v1.0.1
