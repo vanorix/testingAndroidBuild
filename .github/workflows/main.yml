@@ -15,7 +15,9 @@ jobs:
         with:
           node-version: 12.16.1
       - name: Install dependencies
-        run: cd testingAndroidBuild/cicdpipelinetest/ && npm install
+        run: cd cicdpipelinetest/ && npm install
       - name: where are we
         run: ls -lash
+      - name: building 
+        run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
         
