@@ -21,7 +21,7 @@ jobs:
       - name: Setup ENV
         run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool
       - name: Checking things 
-        run: cd cicdpipelinetest/android && .gradlew --version && env && java --version
+        run: cd cicdpipelinetest/android && ./gradlew --version && env && java --version
       - name: Setup React Native   
         run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
       - name: Build App
