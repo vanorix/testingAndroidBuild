@@ -8,25 +8,7 @@ jobs:
     name: Build
     runs-on: macos-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: install openjdk11 
-        run: brew install openjdk@11
-      - name: Set up Node.js 12.16.1
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.16.1
-      - name: Setting Java Home
-        run: export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
-      - name: Install dependencies
-        run: cd cicdpipelinetest/ && npm install && brew install node && brew install watchman
-      - name: Install Android  SDK 
-        run: brew tap homebrew/cask && brew install --cask android-sdk && npm install -g react-native-cli
-      - name: Setup ENV
-        run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool && export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
-      - name: Checking things 
-        run: cd cicdpipelinetest/android && ./gradlew --version && env
-      - name: Setup React Native   
-        run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
-      - name: Build App
-        run: cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
+     - name: Android Build
+       uses: vgaidarji/android-github-actions-build@v1.0.1
+       with:
+          args: "./gradlew app:assembleRelease"
