@@ -24,12 +24,12 @@ jobs:
       - name: Install dependencies
         run: cd cicdpipelinetest/ && npm install && brew install watchman
       - name: Install Android  SDK 
-        run: brew install android-sdk && npm install -g react-native-cli
+        run: brew install --cask homebrew/cask-versions/temurin11 && npm install -g react-native-cli
       - name: Setup ENV
         run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool && export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
       - name: Checking things 
         run: cd cicdpipelinetest/android && ./gradlew --version && env
       - name: Setup React Native   
-        run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+        run:  rm -rf cicdpipelinetest/android/app/src/main/assets/ && cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
       - name: final build    
         run: env && cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
