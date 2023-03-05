@@ -30,6 +30,6 @@ jobs:
       - name: Checking things 
         run: cd cicdpipelinetest/android && ./gradlew --version && env
       - name: Setup React Native   
-        run:  rm -rf cicdpipelinetest/android/app/src/main/assets/ && cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+        run:  rm -rf cicdpipelinetest/android/app/src/main/res/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png && cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
       - name: final build    
         run: env && cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
