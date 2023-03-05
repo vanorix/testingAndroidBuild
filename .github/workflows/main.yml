@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 12.16.1
       - name: Setting Java Home
-        run: export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
+        run: rm -rf /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64/Contents/Home/ && export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
       - name: Install dependencies
         run: cd cicdpipelinetest/ && npm install && brew install node && brew install watchman
       - name: Install Android  SDK 
