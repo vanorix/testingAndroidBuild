@@ -20,7 +20,7 @@ jobs:
         run: brew tap homebrew/cask && brew install --cask android-sdk && npm install -g react-native-cli
       - name: where are we
         run: ls -lash
-      - name: building 
+      - name: setup  
         run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
-      - name: Commit Build 
-        run: cd cicdpipelinetest && git add . && git commit -m "Build APK" && git push
+      - name: build 
+        run: cd cicdpipelinetest/anrdoid && ./gradlew app:assembleRelease 
