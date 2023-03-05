@@ -20,6 +20,8 @@ jobs:
         run: brew tap homebrew/cask && brew install --cask android-sdk && npm install -g react-native-cli
       - name: Setup ENV
         run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool
+      - name: Checking things 
+        run: .cicdpipelinetest/android/gradlew --version && java --version
       - name: Setup React Native   
         run: cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
       - name: Build App
