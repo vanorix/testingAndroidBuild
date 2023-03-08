@@ -1,35 +1,77 @@
+name: Build android app
+
 on:
   push:
    branches:
     - 'main'
     - 'master'
+
+  workflow_dispatch:
+
 jobs:
   build:
     name: Build
     runs-on: macos-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Setup Java I Think 
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '11'
+
       - name: Set up Node.js 18.14.1
         uses: actions/setup-node@v1
         with:
           node-version: 18.14.1
+
       - name: Setting Java Home
-        run: export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/ && export JAVA_HOME=`/usr/libexec/java_home -v 1.11`
+        run: |
+          export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/ 
+          export JAVA_HOME=`/usr/libexec/java_home -v 1.11`
+
       - name: Install dependencies
-        run: cd cicdpipelinetest/ && npm install && brew install watchman
+        run: |
+          cd cicdpipelinetest/ 
+          npm install && brew install watchman
+
       - name: Install Android  SDK 
-        run: brew install --cask homebrew/cask-versions/temurin11 && npm install -g react-native-cli
+        run: |
+          brew install --cask homebrew/cask-versions/temurin11 
+          npm install -g react-native-cli
+
       - name: Setup ENV
-        run: export ANDROID_HOME=$HOME/Library/Android/sdk && export PATH=$PATH:$ANDROID_HOME/emulator && export PATH=$PATH:$ANDROID_HOME/platform-tool && export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
+        run: |
+          export ANDROID_HOME=$HOME/Library/Android/sdk 
+          export PATH=$PATH:$ANDROID_HOME/emulator 
+          export PATH=$PATH:$ANDROID_HOME/platform-tool 
+          export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/
+
       - name: Checking things 
-        run: cd cicdpipelinetest/android && ./gradlew --version && env
+        run: |
+          cd cicdpipelinetest/android 
+          ./gradlew --version 
+          env
+
       - name: Setup React Native   
-        run:  cd cicdpipelinetest && npx mkdirp android/app/src/main/assets/ && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+        run:  |
+          cd cicdpipelinetest 
+          npx mkdirp android/app/src/main/assets/ 
+          react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+
       - name: final build    
-        run: env && rm cicdpipelinetest/android/app/src/main/res/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png && cd cicdpipelinetest/android && ./gradlew app:assembleRelease 
+        run: |
+          env 
+          rm cicdpipelinetest/android/app/src/main/res/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png 
+          cd cicdpipelinetest/android 
+          ./gradlew app:assembleRelease 
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: android-build-${{ github.head_ref }}-${{ github.sha }}
+          path: path/to/artifact/
+          if-no-files-found: error
